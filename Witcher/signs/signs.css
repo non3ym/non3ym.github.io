@@ -1,0 +1,83 @@
+.header{
+    font-size: 450%;
+    color: #f2ebec;
+    letter-spacing: 0.5em;
+    animation: glitch 6s infinite alternate;
+}
+.back{
+    font-size: 200%;
+	animation: glitch 6s infinite alternate;
+	margin-bottom: 1.5em;
+}
+.footer{
+    font-size: 200%;
+    color: #f2ebec;
+    letter-spacing: 5px;
+    animation: footer 3s infinite alternate;
+    margin-top: 5rem;
+    padding: 1.5rem 0rem 0.5rem 0rem;
+    border-top: 5px #f2ebec solid;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 45px;
+}
+img{
+	width: 3em;
+}
+.sign_header{
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #e3d1d3;
+    animation: gray 6s infinite alternate-reverse;
+}
+.sign_header:hover{
+    cursor: pointer;
+    animation: glitch_choose 5s infinite alternate;
+}
+.sign_description{
+	font-size: 150%;
+	border-radius: 10px 90px 20px 0px;
+	animation: blur-r 1s;
+	margin: 0.5em 0em 2.5em 0em;
+	width: 85%;
+	min-height: 2.5em;
+	padding: 1.5em;
+}
+.sign_description:hover{
+	animation: blur 30s;
+}
+#aard{
+	background: linear-gradient(to right, rgba(3, 79, 82, 1), rgba(3, 244, 252, 0.4), rgba(255, 0 ,0 ,0));
+	border: 5px #53c4fc solid;
+	filter: blur(10px) brightness(0.5);
+	color: #53c4fc;
+}
+#igni{
+	background: linear-gradient(to right, rgba(64, 1, 1, 1), rgba(235, 0, 0, 0.4), rgba(255, 0 ,0 ,0));
+	border: 5px #ff6b6b solid;
+	filter: blur(10px) brightness(0.5);
+	color: #ff6b6b;
+}
+#quen{
+	background: linear-gradient(to right, rgba(66, 44, 0, 1), rgba(255, 170, 0, 0.4), rgba(255, 0 ,0 ,0));
+	border: 5px #f7d38b solid;
+	filter: blur(10px) brightness(0.5);
+	color: #f7d38b;
+}
+#yrden{
+	background: linear-gradient(to right, rgba(45, 0, 59, 1), rgba(166, 6, 214, 0.4), rgba(255, 0 ,0 ,0));
+	border: 5px #8a479e solid;
+	filter: blur(10px) brightness(0.5);
+	color: #8a479e;
+}
+#axii{
+	background: linear-gradient(to right, rgba(1, 71, 10, 1), rgba(0, 255, 34, 0.4), rgba(255, 0 ,0 ,0));
+	border: 5px #75ff85 solid;
+	filter: blur(10px) brightness(0.5);
+	color: #75ff85;
+}
+#heliotrop{
+	background: linear-gradient(to right, rgba(99, 27, 0, 1), rgba(255, 68, 0, 0.4), rgba(255, 0 ,0 ,0));
+	border: 5px #ff9a75 solid;
+	filter: blur(10px) brightness(0.5);
+	color: #ff9a75;
+}

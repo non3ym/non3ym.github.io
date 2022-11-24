@@ -1,0 +1,33 @@
+.header{
+    font-size: 550%;
+    color: #f2ebec;
+    letter-spacing: 0.5em;
+    animation: glitch 6s infinite alternate;
+}
+.back{
+    font-size: 200%;
+	animation: glitch 6s infinite alternate;
+	margin-bottom: 1.5em;
+}
+.footer{
+    font-size: 200%;
+    color: #f2ebec;
+    letter-spacing: 5px;
+    animation: footer 3s infinite alternate;
+    margin-top: 5rem;
+    padding: 1.5rem 0rem 0.5rem 0rem;
+    border-top: 5px #f2ebec solid;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 45px;
+}
+#general_map{
+	width: auto;
+	max-width: 100%;
+	border-radius: 30px;
+}
+#map{
+	border: 5px white solid;
+	border-radius: 30px;
+	margin: 0px;
+	padding: 0px;
+}

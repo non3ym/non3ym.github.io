@@ -1,0 +1,43 @@
+.header{
+    font-size: 450%;
+    color: #f2ebec;
+    letter-spacing: 0.5em;
+    animation: glitch 6s infinite alternate;
+}
+.back{
+    font-size: 200%;
+	animation: glitch 6s infinite alternate;
+	margin-bottom: 1.5em;
+}
+.back_little{
+	margin-bottom: .5rem;
+	color: #f2ebec;
+}
+.footer{
+    font-size: 200%;
+    color: #f2ebec;
+    letter-spacing: 5px;
+    animation: footer 3s infinite alternate;
+    margin-top: 5rem;
+    padding: 1.5rem 0rem 0.5rem 0rem;
+    border-top: 5px #f2ebec solid;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 45px;
+	position:absolute;
+	bottom:0;    
+	left:0;
+	width:100%;
+}
+option{
+	text-align: center;
+}
+#player_container{
+	margin: 0;
+	border: 5px #690303 solid; 
+	border-radius: 90px;
+	max-width: 50%;
+	min-width: 30%;
+	padding: 1.5rem 0;
+	animation: player-container 10s infinite;
+	background: linear-gradient(90deg, rgba(184,3,3,1) 0%, rgba(23,23,23,1) 50%, rgba(255,8,8,1) 100%);
+}

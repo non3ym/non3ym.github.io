@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "witcher";
+    src: url("Thewitcher-jnOj.ttf");
+}
+body{
+    background-image: url("background.jpg");
+    font-family: "witcher";
+}
+a{
+    text-decoration: none;
+	color: #f2ebec;
+}

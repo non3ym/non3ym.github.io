@@ -1,0 +1,39 @@
+.header{
+    font-size: 550%;
+    color: #f2ebec;
+    letter-spacing: 0.5em;
+    animation: glitch 6s infinite alternate;
+	margin: 2rem 0 0 0;
+}
+.footer{
+    font-size: 200%;
+    color: #f2ebec;
+    letter-spacing: 5px;
+    animation: footer 3s infinite alternate;
+    margin-top: 5rem;
+    padding: 1.5rem 0rem 0.5rem 0rem;
+    border-top: 5px #f2ebec solid;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 45px;
+}
+.back{
+    font-size: 200%;
+	animation: glitch 6s infinite alternate;
+	margin: 0 0 1.5em 0;
+}
+.index_choose{
+    background: linear-gradient(to bottom, #290303, #4f0606, #8a0f0f, #4f0606, #290303);
+    text-transform: uppercase;
+    font-size: 300%;
+    color: #e3d1d3;
+    width: 80%;
+	margin: 1em 0em;
+	padding: 0.7em 0em;
+    border-radius: 45px;
+    border: 5px #f2ebec solid;
+    animation: gray 6s infinite alternate-reverse;
+}
+.index_choose:hover{
+    cursor: pointer;
+    animation: glitch_choose 5s infinite alternate;
+}

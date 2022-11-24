@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset=utf-8>
+        <title>WITCHER</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="../global.css">
+        <link rel="stylesheet" type="text/css" href="../animations.css">
+        <link rel="stylesheet" type="text/css" href="songs.css">
+		<link rel="icon" href="../main_icon.png">
+		<!--<script src="https://unpkg.com/wavesurfer.js"></script>
+		<script src="reset.js"></script>-->
+		<script src="audio.js"></script>
+    </head>
+    
+    <body><center>
+        <div id="container">
+            
+            <h1 class="header">PIESNI</h1>
+			<h2 class="back"><a href="../index.html">STRONA GLOWNA</a></h2>         	
+
+			<div id="player_container">
+				<div id="song"></div>
+			<h2 class="back_little">
+			WYBIERZ PIOSENKE<br>
+			\|/
+			</h2>	
+				<select id="songs_list">
+					<option value="wilcza_zamiec.mp3" selected>Priscilla - Wilcza Zamieć</option>
+					<option value="pan_lusterko.mp3">Auri - Piosenka o Panu Lusterko</option>
+					<option value="krew_wino.mp3">Krew i Wino Soundtrack</option>
+				</select>
+				
+				<br>
+				
+				<button onclick='zmiana()'>Odtwórz</button>					
+			</div>
+			
+			<!--nieudany pomysl na playera *problem ze zmiana muzyki*-->
+			<!--<button onclick="restart()">Wybierz</button>
+			<button onclick="wavesurfer.destroy()">Destroy</button>
+			<div id="bar"></div>
+			<button class="play-pause-button">Odtwórz</button>
+			<button class="mute-unmute-button">Wycisz</button>-->
+			<div class="footer">Created just for fun! Feel free to use!</div>
+    </center></body>
+
+</html>

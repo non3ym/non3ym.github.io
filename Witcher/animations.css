@@ -1,0 +1,61 @@
+@keyframes footer{
+    from{color: #f2ebec; border-top: 5px #690303 solid; border-top-left-radius: 90px; border-top-right-radius: 90px;}
+    to{color: #690303; border-top: 5px #f2ebec solid; border-top-left-radius: 0px; border-top-right-radius: 0px;}
+}
+@keyframes glitch{
+    0% {color: #f2ebec; text-shadow: 0px 0px white;}
+    24% {color: #f2ebec; text-shadow: -10px -10px #690303;}
+    26% {color: #f2ebec; text-shadow: -11px -11px #690303;}
+    28% {color: #690303; text-shadow: 11px -11px #690303;}
+    30% {color: #f2ebec; text-shadow: 11px 11px #690303;}
+    32% {color: #690303; text-shadow: -11px 11px #690303;}
+    34% {color: #f2ebec; text-shadow: -11px -11px #690303;}
+    75% {color: #690303; text-shadow: -10px -10px #690303;}
+    100% {color: #f2ebec; text-shadow: 0px 0px white;}
+}
+@keyframes glitch_choose{
+    0% {filter: grayscale(100%); border-radius: 45px;}
+    10% {filter: grayscale(90%);}
+    20% {filter: grayscale(80%);}
+    30% {filter: grayscale(70%); border-radius: 45px;}
+    40% {filter: grayscale(60%); border-radius: 5px;}
+    50% {filter: grayscale(50%); color: #690303; text-shadow: 0px 0px white; border-radius: 75px 0px;}
+    55% {filter: grayscale(45%); color: #e3d1d3; text-shadow: -5px 0px #690303; border-radius: 25px;}
+    60% {filter: grayscale(40%); color: #690303; text-shadow: 5px 0px #690303; border-radius: 5px;}
+    65% {filter: grayscale(35%); color: #e3d1d3; text-shadow: 5px 0px #690303; border-radius: 25px;}
+    70% {filter: grayscale(30%); color: #690303; text-shadow: 0px 0px white; border-radius: 0px 75px;}
+    75% {filter: grayscale(25%); border-radius: 5px;}
+    80% {filter: grayscale(20%); border-radius: 45px;}
+    90% {filter: grayscale(10%);}
+    100% {filter: grayscale(0%); border-radius: 45px;}
+}
+@keyframes gray{
+    0% {filter: grayscale(100%);}
+    10% {filter: grayscale(90%);}
+    20% {filter: grayscale(80%);}
+    30% {filter: grayscale(70%);}
+    40% {filter: grayscale(60%);}
+    50% {filter: grayscale(50%);}
+    60% {filter: grayscale(40%);}
+    70% {filter: grayscale(30%);}
+    80% {filter: grayscale(20%);}
+    90% {filter: grayscale(10%);}
+    100% {filter: grayscale(0%);}
+}
+@keyframes blur{
+	0% {filter: blur(10px);}
+	5% {filter: blur(0px);}
+	95% {filter: blur(0px);}
+	100% {filter: blur(10px);}
+}
+@keyframes blur-r{
+	from{filter: blur(0px);}
+	to{filter: blur(10px);}
+}
+@keyframes player-container{
+    0%{border: 5px #690303 solid; border-radius: 90px 0 0 0; background: linear-gradient(90deg, rgba(184,3,3,1) 0%, rgba(23,23,23,1) 50%, rgba(255,8,8,1) 100%);}
+    25%{border: 5px #690303 solid; border-radius: 0 90px 0 0; background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(255,8,8,1) 50%, rgba(23,23,23,1) 100%);}
+    50%{border: 5px #690303 solid; border-radius: 0 0 90px 0; background: linear-gradient(90deg, rgba(184,3,3,1) 0%, rgba(23,23,23,1) 50%, rgba(255,8,8,1) 100%);}
+    75%{border: 5px #690303 solid; border-radius: 0 0 0 90px; background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(255,8,8,1) 50%, rgba(23,23,23,1) 100%);}
+    100%{border: 5px #690303 solid; border-radius: 90px 0 0 0; background: linear-gradient(90deg, rgba(184,3,3,1) 0%, rgba(23,23,23,1) 50%, rgba(255,8,8,1) 100%);}
+}
